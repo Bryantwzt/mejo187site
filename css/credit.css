@@ -30,7 +30,7 @@
 .divisionline{
     width: 80%;
     color: rgba(191, 191, 191, 0.166);
-    margin-top: 20px;
+    margin-top:10px;
     justify-content: center;
 }
 .logohead{
@@ -62,15 +62,15 @@ p3{
 
 p6{
     color: rgb(215, 15, 15);
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     font-family: "Delius Unicase";
-    text-align: center;
     font-size: 15px;
 }
 
 h1{
   margin-top: 20px;
+  margin-bottom: 0px;
   font-size: 45px;
   text-align: center;
   font-family: "Delius Unicase";
@@ -126,6 +126,7 @@ p.lead {
 
 p.lead {
   font-size:18px;
+  margin-bottom: 40px;
 }
 
 p.rest{
