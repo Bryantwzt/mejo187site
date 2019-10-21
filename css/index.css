@@ -115,3 +115,15 @@ body {
   clear: both;
   display: table;
 }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#float-1 {
+  position: fixed;
+  left: 20px;
+  top: 200px;
+}
