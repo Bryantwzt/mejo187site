@@ -55,7 +55,7 @@ body {
   float: left;
 }
 
-p {
+p.lead {
   margin: 0;
 }
 
@@ -127,3 +127,23 @@ body {
   left: 20px;
   top: 200px;
 }
+
+@media only screen and (min-width: 600px) {
+  #float-right {
+    position: fixed;
+    right: 0;
+    top: 10px;
+    z-index: 9999;
+  }
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  min-height: 100px;
+}
+
+footer * {
+  color: white;
+}
+
