@@ -42,3 +42,60 @@ body {
     flex-direction: column;
     align-items: center;
   }
+
+.img-socialmedia {
+  max-width: 200px;
+}
+
+.img-oliversacks {
+  max-width: 400px;
+}
+
+.container-img {
+  float: left;
+}
+
+p {
+  margin: 0;
+}
+
+p.lead {
+  font-size: 20px;
+}
+
+article {
+  margin: 0 200px 0 200px;
+}
+
+a {
+  color: black;
+}
+
+.row {
+  padding: 0 50px 0 50px;
+}
+
+.a-third {
+  width: 33%;
+  float: left;
+}
+
+.a-third img {
+  width: 100%;
+}
+
+.a-third p {
+  width: 100%;
+  word-wrap: break-word;
+}
+
+#banner {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
