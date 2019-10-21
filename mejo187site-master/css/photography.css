@@ -1,0 +1,384 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 2px 15px;
+    text-decoration: none;
+    font-size: 90%;
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+  } 
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    border-bottom: 1.5px solid rgb(214, 214, 214);
+    color:black;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  
+.divisionline{
+    width: 80%;
+    color: rgba(191, 191, 191, 0.166);
+    margin-top: 20px;
+    justify-content: center;
+}
+.logohead{
+    margin-top: 5px;
+    margin-bottom: -15px;
+    width:200px;
+}
+
+p1{
+  color: rgb(215, 15, 15);
+  margin-top: 20px;
+  font-family: "Delius Unicase";
+}
+
+p2{
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p3{
+  color: rgb(215, 15, 15);
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-family: "Delius Unicase";
+  text-align: center;
+  font-size: 15px;
+}
+
+p6{
+    color: rgb(215, 15, 15);
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: "Delius Unicase";
+    text-align: center;
+    font-size: 15px;
+}
+
+h1{
+  margin-top: 20px;
+  font-size: 45px;
+  text-align: center;
+  font-family: "Delius Unicase";
+}
+
+.img-oliversacks{
+    width: 100%;
+    max-width:600px;
+    margin:auto;
+    
+}
+.container-img{
+  margin:auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+  }
+
+
+@media only screen and (min-width: 1px) {
+  .container-img {
+    float: left;
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (min-width: 1px) {
+  .img-intro {
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    color: grey;
+    font-size: 14px;
+    font-style: Bold; 
+  }
+}
+
+@media only screen and (max-width: 1px) {
+  .img-intro {
+    display: none;
+  }
+}
+
+p.lead {
+  margin: 0;
+}
+
+p.lead {
+  font-size:18px;
+}
+
+p.rest{
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+  article {
+  margin: 0 10% 0 10%;
+  }
+
+a {
+  color: black;
+}
+
+.line{
+  width: 70%;
+  color: rgba(198, 189, 189, 0.029);
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.line1{
+  width: 70%;
+  color: rgba(198, 189, 189, 0.029);
+  margin-top: 10px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.line2{
+    width: 60%;
+  color: rgba(198, 189, 189, 0.029);
+  margin-top: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.row {
+  padding: 0 20% 0 20%;
+  margin-top: 20px;
+}
+
+.a-twice {
+  width: 50%;
+  float: left;
+}
+
+.a-twice img {
+  width: 100%;
+  height: 250px;
+}
+
+.a-twice p4 {
+  width: 100%;
+  word-wrap: break-word;
+  font-family: "Delius Unicase";
+  font-style: normal;
+}
+
+.a-twice p5 {
+  width: 100%;
+  word-wrap: break-word;
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 400;
+  font-style: Bold;
+}
+
+#banner {
+  position: fixed;
+  top:0px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+  margin: 0;
+}
+
+.topnav {
+  width: 100%;
+}
+
+.topnav > div {
+  display: table;
+  margin: 0 auto;
+}
+
+.topnav > div::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media only screen and (min-width: 1000px) {
+ #float-icon {
+  position: fixed;
+  left: 25px;
+  top: 375px;
+  z-index: 9999;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #float-icon2 {
+    position: fixed;
+    left: 25px;
+    top: 425px;
+    z-index: 9999;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+   #float-icon3 {
+      position: fixed;
+      left: 25px;
+      top: 475px;
+      z-index: 9999;
+      }
+    }
+
+@media only screen and (min-width: 1000px) {
+  #float-right {
+    position: fixed;
+    right: 15px;
+    top: 20px;
+    z-index: 9999;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #float-left {
+    position: fixed;
+    left: 15px;
+    top: 20px;
+    z-index: 9999;
+  }
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  min-height: 5%;
+}
+
+footer * {
+  color: white;
+  text-align: center;
+  font-family: "Delius Unicase";
+  text-decoration: none;
+}
+
+footer2 {
+  background-color: rgb(31, 31, 31);
+  width: 100%;
+  min-height: 10%;
+}
+
+footer2 * {
+  color: rgb(186, 186, 186);
+  width: 80%;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: adobe-caslon-pro, serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#float-icon>img {
+  width: 30px;
+  border-radius: 50%;
+}
+#float-icon2>img {
+  width: 30px;
+  border-radius: 50%;
+}
+#float-icon3>img {
+  width: 30px;
+  border-radius: 50%;
+}
+#float-right>img {
+  width: 25px;
+}
+#float-left{
+  font-family: adobe-caslon-pro, serif;
+}
+@media only screen and (max-width: 1000px) {
+  #float-left {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #float-right {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #float-icon {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #float-icon3 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #float-icon2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+.a-twice img {
+  width: 100%;
+  height: 100px;
+  }
+}
+  #media2>img {
+    width:25px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    margin-left:45%;
+    margin-top:-5px;
+  }
+  #media3>img {
+    width: 25px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    margin-left: 1.5%;
+    margin-top:-5px;
+  }
+@media only screen and (min-width: 1000px) {
+  #media2 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  #media3 {
+    display: none;
+  }
+}
+.img-1{
+  width: 300%;
+  max-width:600px;
+}
