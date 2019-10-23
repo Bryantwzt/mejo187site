@@ -30,7 +30,7 @@
 .divisionline{
     width: 80%;
     color: rgba(191, 191, 191, 0.166);
-    margin-top: 20px;
+    margin-top:10px;
     justify-content: center;
 }
 .logohead{
@@ -39,51 +39,12 @@
     width:200px;
 }
 
-p1{
-  color: rgb(215, 15, 15);
-  margin-top: 20px;
-  font-family: "Delius Unicase";
-}
-
-p2{
-  font-family: adobe-caslon-pro, serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-p3{
-  color: rgb(215, 15, 15);
-  margin-top: -10px;
-  margin-bottom: 15px;
-  font-family: "Delius Unicase";
-  text-align: center;
-  font-size: 15px;
-}
-
-p6{
-    color: rgb(215, 15, 15);
-    margin-top: 20px;
-    margin-bottom: 0px;
-    font-family: "Delius Unicase";
-    text-align: center;
-    font-size: 15px;
-}
-
 h1{
   margin-top: 20px;
+  margin-bottom: 0px;
   font-size: 45px;
   text-align: center;
   font-family: "Delius Unicase";
-}
-
-.img-oliversacks{
-    width: 100%;
-    max-width:600px;
-    margin:auto;
-    
-}
-.container-img{
-  margin:auto;
 }
 
 body {
@@ -94,46 +55,10 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
+    background-color: rgb(245, 245, 245);
   }
 
-
-@media only screen and (min-width: 1px) {
-  .container-img {
-    float: left;
-    margin-right: 15px;
-  }
-}
-
-@media only screen and (min-width: 1px) {
-  .img-intro {
-    font-family: adobe-caslon-pro, serif;
-    font-weight: 400;
-    color: grey;
-    font-size: 14px;
-    font-style: Bold; 
-  }
-}
-
-@media only screen and (max-width: 1px) {
-  .img-intro {
-    display: none;
-  }
-}
-
-p.lead {
-  margin: 0;
-}
-
-p.lead {
-  font-size:18px;
-}
-
-p.rest{
-  font-size: 18px;
-  margin-top: 30px;
-}
-
-  article {
+article {
   margin: 0 10% 0 10%;
   }
 
@@ -162,36 +87,6 @@ a {
   margin-top: 10px;
   margin-bottom: 20px;
   justify-content: center;
-}
-
-.row {
-  padding: 0 8% 0 8%;
-  margin-top: 20px;
-}
-
-.a-twice {
-  width: 50%;
-  float: left;
-}
-
-.a-twice img {
-  width: 100%;
-  height: 275px;
-}
-
-.a-twice p4 {
-  width: 100%;
-  word-wrap: break-word;
-  font-family: "Delius Unicase";
-  font-style: normal;
-}
-
-.a-twice p5 {
-  width: 100%;
-  word-wrap: break-word;
-  font-family: adobe-caslon-pro, serif;
-  font-weight: 400;
-  font-style: Bold;
 }
 
 #banner {
@@ -351,7 +246,7 @@ footer2 * {
 @media only screen and (max-width: 1000px){
 .a-twice img {
   width: 100%;
-  height: 225px;
+  height: 100px;
   }
 }
   #media2>img {
@@ -389,15 +284,86 @@ footer2 * {
   text-align: center;
 }
 @media only screen and (max-width: 1000px){
-  .a-twice {
-    width: 100%;
-    float: left;
-  }
-}
-@media only screen and (max-width: 1000px){
   .ad{
     width: 95%;
     margin-top: -25px;
     margin-bottom: -5px;
   }
+}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: solid;
+  display: center;
+  background: white;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color:white;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+h1{
+  font-size: 25px;
+  text-align:center;
+  margin-bottom: 30px;
+  font-family: "Delius Unicase";
+}
+
+h2{
+  text-align:center;
+  font-size:15px;
+  font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.signupbtn {
+  margin-top:10px;
+  width: 100%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  width:80%;
+  margin:auto;
+  background-color: white;
+  border:none;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.manage{
+    margin-top:30px;
+    margin-bottom:80px;
+    font-size:10px;
+    width:45%;
+    text-align:center;
 }
