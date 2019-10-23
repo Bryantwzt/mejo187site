@@ -165,7 +165,7 @@ a {
 }
 
 .row {
-  padding: 0 20% 0 20%;
+  padding: 0 8% 0 8%;
   margin-top: 20px;
 }
 
@@ -176,7 +176,7 @@ a {
 
 .a-twice img {
   width: 100%;
-  height: 250px;
+  height: 275px;
 }
 
 .a-twice p4 {
@@ -381,4 +381,10 @@ footer2 * {
 .img-1{
   width: 300%;
   max-width:600px;
+}
+.ad{
+  width:90%;
+  margin-bottom: 15px;
+  margin-top: -10px;
+  text-align: center;
 }

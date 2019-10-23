@@ -132,6 +132,7 @@ p.lead {
 p.rest{
   font-size: 18px;
   margin-top: 30px;
+  margin-bottom: -30px;
 }
 
   article {
@@ -382,4 +383,10 @@ footer2 * {
 .img-1{
   width: 300%;
   max-width:600px;
+}
+.ad{
+  width:90%;
+  margin-bottom: 15px;
+  margin-top: -10px;
+  text-align: center;
 }
