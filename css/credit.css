@@ -385,8 +385,15 @@ footer2 * {
   max-width:600px;
 }
 .ad{
-  width:90%;
+  width:80%;
   margin-bottom: 15px;
   margin-top: -10px;
   text-align: center;
+}
+@media only screen and (max-width: 1000px){
+  .ad{
+    width: 95%;
+    margin-top: -25px;
+    margin-bottom: -5px;
+  }
 }
